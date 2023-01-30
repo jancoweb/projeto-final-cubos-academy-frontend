@@ -1,0 +1,43 @@
+.container-signin {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  background: #f8f8f9;
+}
+
+.signin-left {
+  width: 30%;
+  height: 100%;
+
+  background-image: url('../../assets/background-signin.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.signin-left h1 {
+  height: 9.3rem;
+  padding: 0.5rem;
+  width: 90%;
+
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 130%;
+  color: #034a2a;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.signin-right {
+  width: 70%;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

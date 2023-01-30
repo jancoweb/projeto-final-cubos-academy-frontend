@@ -1,0 +1,31 @@
+.signup-left-steps {
+  width: 40rem;
+  padding: 2rem;
+
+  position: relative;
+  bottom: 10rem;
+}
+
+.signup-left-steps-description {
+  font-family: 'Nunito' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 130%;
+
+  color: #3f3f55;
+}
+
+.signup-left-steps-label {
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  color: #0e8750;
+}
+
+.signup-left-steps .MuiSvgIcon-root {
+  color: #0e8750 !important;
+  width: 3rem !important;
+  height: 3rem !important;
+}

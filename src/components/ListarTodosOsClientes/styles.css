@@ -1,0 +1,171 @@
+.status-clients-title {
+  width: 90%;
+  margin-top: 3.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status-clients-title-left {
+  display: flex;
+  gap: 2rem;
+}
+
+.status-clients-title-left h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #3f3f55;
+}
+
+.status-clients-title-right {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.status-clients-title-right button {
+  border: none;
+  padding: 4px 56px;
+
+  width: 26.6rem;
+  height: 3.2rem;
+
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: #f8f8f9;
+  background: #da0175;
+  border-radius: 10px;
+}
+
+.status-clients-title-right button:hover {
+  cursor: pointer;
+}
+
+.filter-icon-clients {
+  padding: 0.5rem;
+
+  background: #ffffff;
+  border-radius: 1rem;
+}
+
+.filter-input-clients {
+  border: none;
+  width: 31.8rem;
+  height: 3.9rem;
+  padding: 7px 8px;
+  gap: 205px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.magnifier-icon-clients {
+  position: relative;
+  right: 5rem;
+}
+
+.magnifier-icon-clients:hover,
+.filter-icon-clients:hover {
+  cursor: pointer;
+}
+
+.status-clients-table {
+  padding: 12px 23px;
+  margin-top: 3rem;
+
+  width: 90%;
+  height: 64.2rem;
+
+  background: #ffffff;
+  border-radius: 30px;
+
+  overflow-y: scroll;
+}
+
+.status-clients-table-dataTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  border-bottom: 1px solid #eff0f6;
+
+  color: #3f3f55;
+}
+
+.status-clients-table-dataTitle img {
+  margin-right: 1rem;
+}
+
+.status-clients-table-dataTitle p {
+  width: 19.5rem;
+  display: flex;
+}
+
+.status-clients-table-dataClients {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+
+  border-bottom: 1px solid #eff0f6;
+
+  color: #747488;
+}
+
+.status-clients-table-dataClients:hover {
+  cursor: pointer;
+  border-bottom: 0.2rem solid #3f3f55;
+  border-top: 0.2rem solid #3f3f55;
+  border-radius: 0.4rem;
+}
+
+.status-clients-table-dataClients p {
+  width: 19.5rem;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.status-clients-table-dataClients span {
+  width: 100%;
+  padding: 0.2rem 0;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.status-clients-table-dataClients__non-defaulting {
+  color: #1fa7af;
+  background-color: #eef6f6;
+}
+
+.status-clients-table-dataClients__defaulter {
+  color: #971d1d;
+  background-color: #ffefef;
+}
+
+.icon-chargeClient {
+  z-index: 2;
+  width: 4rem;
+  position: relative;
+  left: 4rem;
+  cursor: pointer;
+}
+
+.icon-chargeClient:hover {
+  transform: scale(1.2);
+}

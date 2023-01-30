@@ -1,0 +1,207 @@
+.container-modalUser {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(0.4rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalUser__card {
+  background: #ffffff;
+  border-radius: 2rem;
+
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 6rem;
+  position: relative;
+}
+
+.modalUser__card--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 3.5rem;
+}
+
+.modalUser__card--title .client-icon {
+  margin-right: 1.6rem;
+  width: 3.2rem;
+}
+
+.modalUser__card--title h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #3f3f55;
+}
+
+.close-modalUser {
+  cursor: pointer;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+}
+
+.modalUser__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalUser__form span {
+  display: flex;
+  justify-content: center;
+}
+
+.modalUser__form label {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #3f3f55;
+  margin-bottom: 0.6rem;
+}
+
+/* .modalUser__form input {
+  all: unset;
+  box-sizing: border-box;
+  border: 0.1rem solid #d0d5dd;
+  box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+  border-radius: 0.8rem;
+
+  padding: 1.4rem;
+  margin-bottom: 3rem;
+  height: 4rem;
+} */
+
+.modalEditUser__inputDefault {
+  all: unset;
+  box-sizing: border-box;
+  border: 0.1rem solid #ddd0d0;
+  box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+  border-radius: 0.8rem;
+
+  padding: 1.4rem;
+  margin-bottom: 3rem;
+  height: 4rem;
+}
+
+.modalEditUser__inputError {
+  all: unset;
+  box-sizing: border-box;
+  border: 0.2rem solid #e70000;
+  box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+  border-radius: 0.8rem;
+
+  padding: 1.4rem;
+  margin-bottom: 3rem;
+  height: 4rem;
+}
+
+.modalUser__form img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.two-inputsUser {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.cpfUser_input,
+.phoneUser_input {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalUser__form--buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-buttonUser {
+  width: 16rem;
+  height: 3.5rem;
+  background: #da0175;
+  color: #f8f8f9;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.swapPasswordIcon {
+  position: absolute;
+  bottom: 20.6rem;
+  right: 8rem;
+}
+
+.swapConfirmPasswordIcon {
+  position: absolute;
+  bottom: 11rem;
+  right: 8rem;
+}
+
+.swapPasswordIconError {
+  position: absolute;
+  bottom: 21.8rem;
+  right: 8rem;
+}
+
+.swapConfirmPasswordIconError {
+  position: absolute;
+  bottom: 12.2rem;
+  right: 8rem;
+}
+
+.swapPasswordIconErrorConfirm {
+  position: absolute;
+  bottom: 22rem;
+  right: 8rem;
+}
+
+.swapPasswordIcon:hover,
+.swapConfirmPasswordIcon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.swapPasswordIconError:hover,
+.swapConfirmPasswordIconError:hover,
+.swapPasswordIconErrorConfirm:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.userAlteration-allClear {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2.4rem;
+  width: 60rem;
+  height: 45rem;
+
+  background: #f0f0f5;
+  border-radius: 3rem;
+}
+
+.close-userAlteration-allClear {
+  cursor: pointer;
+  position: relative;
+  bottom: 8rem;
+  left: 24rem;
+}

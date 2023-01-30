@@ -1,0 +1,174 @@
+.container-modalCharge {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(0.4rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modalCharge__card {
+  background: #ffffff;
+  border-radius: 2rem;
+
+  width: 60rem;
+  height: 68rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.modalCharge__card--title {
+  width: 80%;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.modalCharge__card--title .client-icon {
+  margin-right: 1.6rem;
+  width: 3.2rem;
+}
+
+.modalCharge__card--title h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #3f3f55;
+}
+
+.close-modalCharge {
+  cursor: pointer;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+}
+
+.modalCharge__form {
+  display: flex;
+  flex-direction: column;
+  width: 48rem;
+}
+
+.modalCharge__form label {
+  font-family: 'Nunito';
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #3f3f55;
+  margin-bottom: 0.6rem;
+}
+
+.modalCharge__form__inputDefault {
+  all: unset;
+  box-sizing: border-box;
+  border: 0.1rem solid #ddd0d0;
+  box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.05);
+  border-radius: 0.8rem;
+
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  height: 4rem;
+}
+
+.descriptionCharge {
+  height: 10rem;
+  word-wrap: break-word;
+  overflow-y: scroll;
+}
+
+.modalCharge__form__twoInputs {
+  display: flex;
+}
+
+.modalCharge__form__twoInputs input {
+  width: 23rem;
+  height: 4.5rem;
+}
+
+.modalCharge__form__radioButtons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.modalCharge__form__radioButtons__label {
+  font-family: 'Nunito' !important;
+  font-weight: 600 !important;
+  font-size: 1.4rem !important;
+  line-height: 2rem !important;
+  color: #3f3f55 !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.labelRadioMUI {
+  padding: 1.2rem 1.6rem;
+  gap: 8px;
+
+  margin-left: 0.1rem !important;
+
+  width: 48rem;
+  height: 4.8rem;
+  background: #f0f0f5;
+  border-radius: 1rem;
+}
+
+.labelRadioMUI .MuiTypography-root {
+  font-size: 1.5rem;
+}
+
+.labelRadioMUI .MuiSvgIcon-root {
+  border-radius: 50% !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  background-color: #0e8750 !important;
+  color: white !important;
+}
+
+.modalCharge__form--buttons {
+  margin-top: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+.modalCharge__form--buttons button {
+  width: 20rem;
+  height: 3.3rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+.cancel-button {
+  cursor: pointer;
+
+  background: #f8f8f9;
+  border: 0.1rem solid #dedee9;
+  color: #0e8750;
+}
+
+.confirm-button {
+  cursor: pointer;
+  background: #da0175;
+  color: #f8f8f9;
+  border: none;
+}
+
+.charge-icon {
+  margin-right: 2rem;
+}

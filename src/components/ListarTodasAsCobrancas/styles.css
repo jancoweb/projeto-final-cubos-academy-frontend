@@ -1,0 +1,161 @@
+.main-generalStatus-charges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.status-charges-title {
+  width: 90%;
+  margin-top: 3.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.status-charges-title-left {
+  display: flex;
+  gap: 2rem;
+}
+
+.status-charges-title-left h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #3f3f55;
+}
+
+.status-charges-title-right {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.filter-icon-charges {
+  padding: 0.5rem;
+
+  background: #ffffff;
+  border-radius: 1rem;
+}
+
+.filter-input-charges {
+  cursor: pointer;
+  border: none;
+  width: 31.8rem;
+  height: 3.9rem;
+  padding: 0.7rem 0.8rem;
+  gap: 205px;
+
+  background: #ffffff;
+  border-radius: 1rem;
+}
+
+.magnifier-icon-charges {
+  cursor: pointer;
+  position: relative;
+  right: 5rem;
+}
+
+.filter-icon-charges:hover {
+  cursor: pointer;
+}
+
+.status-charges-table {
+  min-width: 95%;
+  padding: 1.2rem 2.3rem;
+  margin-top: 3rem;
+
+  height: 64.2rem;
+
+  background: #ffffff;
+  border-radius: 30px;
+  overflow-y: scroll;
+}
+
+.status-charges-table-dataTitle {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 0.2rem;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  border-bottom: 1px solid #eff0f6;
+
+  color: #3f3f55;
+}
+
+.status-charges-table-dataTitle p {
+  width: 20rem;
+  display: flex;
+}
+
+.status-charges-table-dataTitle img {
+  margin-right: 1rem;
+}
+
+.status-charges-table-dataClients {
+  display: flex;
+  align-items: center;
+  padding: 0rem 0;
+  gap: 3rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+
+  border-bottom: 1px solid #eff0f6;
+
+  color: #747488;
+}
+
+.status-charges-table-dataClients:hover {
+  cursor: pointer;
+  border-bottom: 0.2rem solid #3f3f55;
+  border-top: 0.2rem solid #3f3f55;
+  border-radius: 0.4rem;
+}
+
+.status-charges-table-dataClientsClickable {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  gap: 0.2rem;
+}
+
+.status-charges-table-dataClients p {
+  width: 20rem;
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.status-charges-table-dataClients span {
+  padding: 0.2rem 1rem;
+  border-radius: 8px;
+}
+
+span.status-charges-table-dataClients__paid {
+  color: #1fa7af;
+  background-color: #eef6f6;
+}
+
+span.status-charges-table-dataClients__overdue {
+  color: #971d1d;
+  background-color: #ffefef;
+}
+
+span.status-charges-table-dataClients__expected {
+  color: #c5a605;
+  background-color: #fcf6dc;
+}
+
+.status-charges-table-dataClients img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}

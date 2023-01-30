@@ -1,0 +1,87 @@
+.container-charges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.charges-by-client {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 3rem;
+  width: 100%;
+  max-height: 50vh;
+  padding: 3rem 2rem;
+  gap: 2rem;
+  overflow-y: scroll;
+}
+
+.charges-by-client__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.charges-by-client__header h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #3f3f55;
+}
+
+.charges-by-client__header button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #f8f8f9;
+  background: #da0175;
+  border-radius: 1rem;
+  width: 25.2rem;
+  height: 3.3rem;
+}
+
+.charges-by-client__arrow {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.charges-by-client__data {
+  border-bottom: 1px solid #eff0f6;
+  padding-bottom: 1rem;
+}
+
+.charges-by-client__data-title {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 5rem;
+  color: #3f3f55;
+}
+
+.charges-by-client__data-info {
+  width: 21rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.charges-by-client__data-info span {
+  padding: 0.2rem 1rem;
+  border-radius: 3rem;
+}
+
+.charges-by-client__icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  border-bottom: 0.2rem solid #3f3f55;
+  border-top: 0.2rem solid #3f3f55;
+  border-radius: 0.4rem;
+}

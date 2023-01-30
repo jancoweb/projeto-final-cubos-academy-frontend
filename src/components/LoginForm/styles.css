@@ -1,0 +1,93 @@
+.loginform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35rem;
+  height: 40rem;
+}
+
+.loginform-container h1 {
+  margin-bottom: 3.2rem;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #343447;
+}
+
+.loginform-container label {
+  margin-bottom: 0.5rem;
+}
+
+.loginform-email,
+.loginform-password {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #344054;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.loginform-password {
+  margin-bottom: 1rem;
+}
+
+.loginform-input-email,
+.loginform-input-password {
+  width: 30rem;
+
+  background-color: #fff;
+}
+
+.loginform-input-password .MuiSvgIcon-root {
+  width: 2rem !important;
+  height: 2rem !important;
+}
+
+.loginform-forgotPassword {
+  position: relative;
+  top: 1rem;
+  left: 8rem;
+  color: #da0175;
+}
+
+.loginform-button-login {
+  border: none;
+  padding: 4px 40px;
+  margin-top: 5rem;
+  width: 16rem;
+  height: 3.3rem;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #f8f8f9;
+  background: #da0175;
+  border-radius: 10px;
+}
+
+.loginform-button-login:hover {
+  cursor: pointer;
+}
+
+.loginform-footer {
+  margin-top: 1.5rem;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3f3f55;
+}
+
+.loginform-footer a {
+  color: #da0175;
+}

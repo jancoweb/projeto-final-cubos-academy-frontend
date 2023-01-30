@@ -1,0 +1,291 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 1.6rem;
+}
+
+/* Error Notification */
+
+.error-notification {
+  font-family: 'Montserrat';
+  color: #dd1616;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.error-notification-modal {
+  font-family: 'Montserrat';
+  color: #dd1616;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.error-notification-modal-inputs {
+  background-color: #dd1616;
+}
+
+.correct-notification {
+  font-family: 'Montserrat';
+  color: #0e8750;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+/* Charge table styles */
+
+.main-generalCharges {
+  margin-top: 2rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.generalCharges-overdue,
+.generalCharges-foreseen,
+.generalCharges-paid {
+  border-radius: 2rem;
+
+  width: 36rem;
+  height: 39.7rem;
+
+  background: #ffffff;
+
+  box-shadow: 0px 4px 4px rgba(172, 217, 197, 0.25);
+}
+
+.generalCharges-title {
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.8rem;
+  gap: 6rem;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.generalCharges-title h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 1.8rem;
+
+  color: #3f3f55;
+}
+
+.generalCharges-title p {
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  padding: 0 1.5rem;
+
+  border-radius: 0.8rem;
+}
+
+.generalCharges-title-overdue {
+  color: #971d1d;
+  background: #ffefef;
+}
+
+.generalCharges-title-foreseen {
+  color: #c5a605;
+  background: #fcf6dc;
+}
+
+.generalCharges-title-paid {
+  background: #eef6f6;
+  color: #1fa7af;
+}
+
+.generalCharges-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.generalCharges-content-TypeOfdata {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5.5rem;
+
+  padding: 2rem 3rem;
+
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 0.005em;
+  color: #3f3f55;
+  border-bottom: 1px solid #eff0f7;
+}
+
+.generalCharges-content-data {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+
+  padding: 1.5rem 1rem;
+  font-family: 'Nunito';
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+
+  color: #6e6e85;
+  border-bottom: 1px solid #eff0f7;
+}
+
+.generalCharges-content-data p {
+  width: 34%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.generalCharges-moreInfo p {
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  text-decoration: underline #da0175;
+  font-family: 'Nunito';
+
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: #da0175;
+}
+
+/* Status clients tables styles */
+
+.container-clientStatus-table {
+  width: 55rem;
+  height: 39rem;
+  box-shadow: 0.1rem 0.1rem 0.5rem rgb(220, 218, 218);
+  background: #fff;
+  border-radius: 2rem;
+}
+
+.clientStatus-table-title {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.clientStatus-table-title img {
+  margin-right: 1rem;
+}
+
+.clientStatus-table-title h1 {
+  display: flex;
+  align-items: center;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+
+  color: #3f3f55;
+}
+
+.clientStatus-table-title p {
+  padding: 0 1.5rem;
+  width: 5.2rem;
+  height: 2.1rem;
+
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16px;
+
+  border-radius: 8px;
+}
+
+.clientStatus-table-title__defaulter {
+  background: #ffefef;
+  color: #971d1d;
+}
+
+.clientStatus-table-title__non-defaulting {
+  background: #eef6f6;
+  color: #1fa7af;
+}
+
+.clientStatus-table-typeOfData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.clientStatus-table-typeOfData h1 {
+  width: 14rem;
+  font-family: 'Nunito';
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #3f3f55;
+}
+
+.clientStatus-table-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  margin-bottom: 1.2rem;
+
+  border-bottom: 1px solid #eff0f7;
+}
+
+.clientStatus-table-body p {
+  width: 14rem;
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #747488;
+}
+
+.clientStatus-btn p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  cursor: pointer;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  color: #da0175;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

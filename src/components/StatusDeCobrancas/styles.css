@@ -1,0 +1,62 @@
+.main-status {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.main-paid-charges,
+.main-overdue-charges,
+.main-anticipated-charges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2.3rem 4rem;
+  gap: 4rem;
+
+  width: 36rem;
+  height: 11.1rem;
+  border-radius: 3rem;
+}
+
+.main-paid-charges {
+  background: #cbe9e9;
+}
+
+.main-overdue-charges {
+  background: #ffdada;
+}
+
+.main-anticipated-charges {
+  background: #f8f0ca;
+}
+
+.paid-charges-infos,
+.overdue-charges-infos,
+.anticipated-charges-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.paid-charges-infos h1,
+.overdue-charges-infos h1,
+.anticipated-charges-infos h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #3f3f55;
+}
+.paid-charges-infos p,
+.overdue-charges-infos p,
+.anticipated-charges-infos p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #3f3f55;
+}

@@ -1,0 +1,127 @@
+.container-charge-detail {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(0.4rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.confirm-charge-detail__card {
+  background-color: #fff;
+  border-radius: 30px;
+
+  width: 60rem;
+  height: 46rem;
+  padding: 4rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.confirm-charge-detail__card--close {
+  cursor: pointer;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  color: #3f3f55;
+}
+
+.confirm-charge-detail__card--title {
+  width: 33rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.6rem;
+
+  color: #3f3f55;
+}
+
+.confirm-charge-detail__card--content {
+  margin-top: 1.6rem;
+}
+
+.confirm-charge-detail__card--content h6 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-bottom: 0.8rem;
+
+  color: #3f3f55;
+}
+
+.confirm-charge-detail__card--content p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3f3f55;
+
+  margin-bottom: 2.4rem;
+}
+
+.confirm-charge-detail__card--content--description {
+  width: 48rem;
+  height: 6rem;
+  word-wrap: break-word;
+  overflow-y: scroll;
+}
+
+.charge-detail__card--content--description-two {
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+}
+
+.--content--description-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.--content--description-two h6 {
+  width: 12rem;
+}
+
+.--content--description-two p {
+  width: 12rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+p.status-charges-table-dataClients__paid,
+p.status-charges-table-dataClients__overdue,
+p.status-charges-table-dataClients__expected {
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p.status-charges-table-dataClients__paid {
+  color: #1fa7af;
+  background-color: #eef6f6;
+}
+
+p.status-charges-table-dataClients__overdue {
+  color: #971d1d;
+  background-color: #ffefef;
+}
+
+p.status-charges-table-dataClients__expected {
+  color: #c5a605;
+  background-color: #fcf6dc;
+}

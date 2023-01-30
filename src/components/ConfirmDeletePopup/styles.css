@@ -1,0 +1,74 @@
+.container-confirm-delete {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(0.4rem);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.confirm-delete__card {
+    background-color: #FFF;
+    border-radius: 30px;
+
+    width: 60rem;
+    height: 40rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.confirm-delete__card--close {
+    cursor: pointer;
+    position: absolute;
+    right: 3rem;
+    top: 3rem;
+    color: #3F3F55;
+}
+
+.alert-icon {
+    margin-bottom: 1.5rem;
+}
+
+.confirm-delete__card span {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #CC7800;
+
+    margin-bottom: 2.5rem;
+}
+
+.confirm-delete__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.confirm-delete__buttons button {
+    border-radius: 0.4rem;
+    width: 10rem;
+    height: 2.25rem;
+    text-align: center;
+}
+
+.confirm-delete__buttons .confirm-delete__buttons--cancel {
+    background-color: #F2D6D0;
+    color: #AE1100;
+}
+
+.confirm-delete__buttons .confirm-delete__buttons--confirm {
+    background-color: #ACD9C5;
+    color: #034A2A;
+}
